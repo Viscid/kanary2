@@ -17,9 +17,11 @@ class Practice extends React.Component {
     this.state = {
       currentKana: 0,
       inputValue: '',
+      inputDisabled: false,
       correct: [],
       wrong: [],
-      widths: []
+      widths: [],
+      done: false
     }
     
     this.kanaRefs = this.props.orderedKana.map(() => React.createRef());
@@ -27,6 +29,14 @@ class Practice extends React.Component {
     this.inputRef = React.createRef();
     this.focusInput = this.focusInput.bind(this);
     this.onChange = this.onChange.bind(this);
+  }
+
+  disableInput(time) {
+    this.setState({
+      inputDisabled: true
+    });
+
+    setTimeout(() => this.setState({ inputDisabled: false }), time);
   }
 
   checkAnswer(answer) {
@@ -38,27 +48,40 @@ class Practice extends React.Component {
     );
   }
 
-  onChange(e) {
-    const value = e.target.value;
-    const currentKana = this.props.orderedKana[this.state.currentKana];
+  nextKana(correct) {
+    const nextKanaIndex = this.state.currentKana + 1;
+    const lastKanaIndex = this.props.orderedKana.length - 1;
 
-    if (currentKana.romaji.includes(value)) {
-      setTimeout(      this.setState({
-        currentKana: this.state.currentKana + 1,
-        inputValue: '',
-        correct: [...this.state.correct, this.state.currentKana]
-      }), 200);
-
-    } else if (!this.checkAnswer(value)) { 
+    if (nextKanaIndex <= lastKanaIndex) {
       this.setState({
-        currentKana: this.state.currentKana + 1,
-        inputValue: '',
-        wrong: [...this.state.wrong, this.state.currentKana]
+        currentKana: nextKanaIndex,
+        inputValue: ''
       })
+
+      if (correct) {
+        this.setState ({ correct: [...this.state.correct, this.state.currentKana] });
+      } else {
+        this.setState ({ wrong: [...this.state.wrong, this.state.currentKana] });
+        this.disableInput(1000);
+      }
     } else {
-      this.setState({
-        inputValue: e.target.value
-      });
+      this.setState({ done: true })
+    }
+
+  }
+
+  onChange(e) {
+    if (!this.state.inputDisabled) {
+      const value = e.target.value;
+      const currentKana = this.props.orderedKana[this.state.currentKana];
+
+      if (currentKana.romaji.includes(value)) {
+        this.nextKana(true);
+      } else if (!this.checkAnswer(value)) { 
+        this.nextKana(false);
+      } else {
+        this.setState({ inputValue: e.target.value });
+      }
     }
   }
 
@@ -100,7 +123,9 @@ class Practice extends React.Component {
         <RomajiInput
           ref={this.inputRef}
           value={this.state.inputValue}
-          onChange={this.onChange} />
+          onChange={this.onChange}
+          disabled={this.inputDisabled} />
+        { this.state.done ? <h1> Done </h1> : null}
       </div>
     )
   }
