@@ -1,0 +1,36 @@
+@import '../../vars.scss';
+
+.tabButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #888;
+}
+
+.tabsButton {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0.5em;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+  border-left: 1px solid #333;
+  background-color: #282828;
+}
+
+.tabsButton.active {
+  background-color: #333;
+  color: $textSecondary;
+}
+
+.tabsButton:hover:not(.active) {
+  background-color: #2A2A2A;
+}
+
+.tabsButton:first-of-type {
+  border-left: 0;
+}

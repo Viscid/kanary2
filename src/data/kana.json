@@ -1,0 +1,1500 @@
+[
+  {
+    "id": 1,
+    "character": "あ",
+    "romaji": ["a"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 2,
+    "character": "い",
+    "romaji": ["i"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 3,
+    "character": "う",
+    "romaji": ["u"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 4,
+    "character": "え",
+    "romaji": ["e"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 5,
+    "character": "お",
+    "romaji": ["o"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 6,
+    "character": "か",
+    "romaji": ["ka"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 7,
+    "character": "き",
+    "romaji": ["ki"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 8,
+    "character": "く",
+    "romaji": ["ku"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 9,
+    "character": "け",
+    "romaji": ["ke"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 10,
+    "character": "こ",
+    "romaji": ["ko"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 11,
+    "character": "さ",
+    "romaji": ["sa"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 12,
+    "character": "し",
+    "romaji": ["shi"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 13,
+    "character": "す",
+    "romaji": ["su"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 14,
+    "character": "せ",
+    "romaji": ["se"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 15,
+    "character": "そ",
+    "romaji": ["so"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 16,
+    "character": "た",
+    "romaji": ["ta"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 17,
+    "character": "ち",
+    "romaji": ["chi"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 18,
+    "character": "つ",
+    "romaji": ["tsu"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 19,
+    "character": "て",
+    "romaji": ["te"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 20,
+    "character": "と",
+    "romaji": ["to"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 21,
+    "character": "な",
+    "romaji": ["na"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 22,
+    "character": "に",
+    "romaji": ["ni"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 23,
+    "character": "ぬ",
+    "romaji": ["nu"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 24,
+    "character": "ね",
+    "romaji": ["ne"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 25,
+    "character": "の",
+    "romaji": ["no"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 26,
+    "character": "は",
+    "romaji": ["ha", "wa"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 27,
+    "character": "ひ",
+    "romaji": ["hi"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 28,
+    "character": "ふ",
+    "romaji": ["fu"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 29,
+    "character": "へ",
+    "romaji": ["he"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 30,
+    "character": "ほ",
+    "romaji": ["ho"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 31,
+    "character": "ま",
+    "romaji": ["ma"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 32,
+    "character": "み",
+    "romaji": ["mi"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 33,
+    "character": "む",
+    "romaji": ["mu"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 34,
+    "character": "め",
+    "romaji": ["me"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 35,
+    "character": "も",
+    "romaji": ["mo"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 36,
+    "character": "や",
+    "romaji": ["ya"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 37,
+    "character": "ゆ",
+    "romaji": ["yu"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 38,
+    "character": "よ",
+    "romaji": ["yo"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 39,
+    "character": "ら",
+    "romaji": ["ra"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 41,
+    "character": "り",
+    "romaji": ["ri"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 42,
+    "character": "る",
+    "romaji": ["ru"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 43,
+    "character": "れ",
+    "romaji": ["re"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 44,
+    "character": "ろ",
+    "romaji": ["ro"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 45,
+    "character": "わ",
+    "romaji": ["wa"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 46,
+    "character": "を",
+    "romaji": ["wo", "o"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 47,
+    "character": "ん",
+    "romaji": ["n"],
+    "syllabary": "hiragana",
+    "group": "gojuon"
+  },
+  {
+    "id": 48,
+    "character": "が",
+    "romaji": ["ga"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 49,
+    "character": "ぎ",
+    "romaji": ["gi"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 50,
+    "character": "ぐ",
+    "romaji": ["gu"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 51,
+    "character": "げ",
+    "romaji": ["ge"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 52,
+    "character": "ご",
+    "romaji": ["go"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 53,
+    "character": "ざ",
+    "romaji": ["za"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 54,
+    "character": "じ",
+    "romaji": ["ji", "zi"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 55,
+    "character": "ず",
+    "romaji": ["zu"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 56,
+    "character": "ぜ",
+    "romaji": ["ze"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 57,
+    "character": "ぞ",
+    "romaji": ["zo"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 58,
+    "character": "だ",
+    "romaji": ["da"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 59,
+    "character": "ぢ",
+    "romaji": ["ji", "di"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 60,
+    "character": "づ",
+    "romaji": ["zu", "du", "dzu"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 61,
+    "character": "で",
+    "romaji": ["de"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 62,
+    "character": "ど",
+    "romaji": ["do"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 63,
+    "character": "ば",
+    "romaji": ["ba"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 64,
+    "character": "び",
+    "romaji": ["bi"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 65,
+    "character": "ぶ",
+    "romaji": ["bu"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 66,
+    "character": "べ",
+    "romaji": ["be"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 67,
+    "character": "ぼ",
+    "romaji": ["bo"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 68,
+    "character": "ぱ",
+    "romaji": ["pa"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 69,
+    "character": "ぴ",
+    "romaji": ["pi"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 70,
+    "character": "ぷ",
+    "romaji": ["pu"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 71,
+    "character": "ぺ",
+    "romaji": ["pe"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 72,
+    "character": "ぽ",
+    "romaji": ["po"],
+    "syllabary": "hiragana",
+    "group": "dakuon"
+  },
+  {
+    "id": 73,
+    "character": "きゃ",
+    "romaji": ["kya"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 74,
+    "character": "きゅ",
+    "romaji": ["kyu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 75,
+    "character": "きょ",
+    "romaji": ["kyo"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 76,
+    "character": "しゃ",
+    "romaji": ["sha"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 77,
+    "character": "しゅ",
+    "romaji": ["shu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 78,
+    "character": "しょ",
+    "romaji": ["sho"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 79,
+    "character": "ちゃ",
+    "romaji": ["cha"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 80,
+    "character": "ちゅ",
+    "romaji": ["chu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 81,
+    "character": "ちょ",
+    "romaji": ["cho"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 82,
+    "character": "にゃ",
+    "romaji": ["nya"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 83,
+    "character": "にゅ",
+    "romaji": ["nyu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 84,
+    "character": "にょ",
+    "romaji": ["nyo"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 85,
+    "character": "ひゃ",
+    "romaji": ["hya"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 86,
+    "character": "ひゅ",
+    "romaji": ["hyu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 87,
+    "character": "ひょ",
+    "romaji": ["hyo"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 88,
+    "character": "みゃ",
+    "romaji": ["mya"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 89,
+    "character": "みゅ",
+    "romaji": ["myu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 90,
+    "character": "みょ",
+    "romaji": ["myo"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 91,
+    "character": "りゃ",
+    "romaji": ["rya"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 92,
+    "character": "りゅ",
+    "romaji": ["ryu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 93,
+    "character": "りょ",
+    "romaji": ["ryo"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 94,
+    "character": "ぎゃ",
+    "romaji": ["gya"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 95,
+    "character": "ぎゅ",
+    "romaji": ["gyu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 96,
+    "character": "ぎょ",
+    "romaji": ["gyo"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 97,
+    "character": "じゃ",
+    "romaji": ["ja"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 98,
+    "character": "じゅ",
+    "romaji": ["ju"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 99,
+    "character": "じょ",
+    "romaji": ["jo"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 100,
+    "character": "ぢゃ",
+    "romaji": ["ja", "dya"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 101,
+    "character": "ぢゅ",
+    "romaji": ["ju", "dyu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 102,
+    "character": "ぢょ",
+    "romaji": ["jo", "dyo"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 103,
+    "character": "びゃ",
+    "romaji": ["bya"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 104,
+    "character": "びゅ",
+    "romaji": ["byu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 105,
+    "character": "びょ",
+    "romaji": ["byu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 106,
+    "character": "ぴゃ",
+    "romaji": ["pya"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 107,
+    "character": "ぴゅ",
+    "romaji": ["pyu"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 108,
+    "character": "ぴょ",
+    "romaji": ["pyo"],
+    "syllabary": "hiragana",
+    "group": "yoon"
+  },
+  {
+    "id": 109,
+    "character": "ア",
+    "romaji": ["a"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 110,
+    "character": "イ",
+    "romaji": ["i"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 111,
+    "character": "ウ",
+    "romaji": ["u"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 112,
+    "character": "エ",
+    "romaji": ["e"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 113,
+    "character": "オ",
+    "romaji": ["o"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 114,
+    "character": "カ",
+    "romaji": ["ka"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 115,
+    "character": "キ",
+    "romaji": ["ki"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 116,
+    "character": "ク",
+    "romaji": ["ku"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 117,
+    "character": "ケ",
+    "romaji": ["ke"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 118,
+    "character": "コ",
+    "romaji": ["ko"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 119,
+    "character": "サ",
+    "romaji": ["sa"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 120,
+    "character": "シ",
+    "romaji": ["shi"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 121,
+    "character": "ス",
+    "romaji": ["su"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 122,
+    "character": "セ",
+    "romaji": ["se"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 123,
+    "character": "ソ",
+    "romaji": ["so"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 124,
+    "character": "タ",
+    "romaji": ["ta"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 125,
+    "character": "チ",
+    "romaji": ["chi"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 126,
+    "character": "ツ",
+    "romaji": ["tsu"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 127,
+    "character": "テ",
+    "romaji": ["te"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 128,
+    "character": "ト",
+    "romaji": ["to"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 129,
+    "character": "ナ",
+    "romaji": ["na"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 130,
+    "character": "ニ",
+    "romaji": ["ni"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 131,
+    "character": "ヌ",
+    "romaji": ["nu"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 132,
+    "character": "ネ",
+    "romaji": ["ne"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 133,
+    "character": "ノ",
+    "romaji": ["no"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 134,
+    "character": "ハ",
+    "romaji": ["ha"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 135,
+    "character": "ヒ",
+    "romaji": ["hi"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 136,
+    "character": "フ",
+    "romaji": ["fu"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 137,
+    "character": "ヘ",
+    "romaji": ["he"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 138,
+    "character": "ホ",
+    "romaji": ["ho"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 139,
+    "character": "マ",
+    "romaji": ["ma"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 140,
+    "character": "ミ",
+    "romaji": ["mi"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 141,
+    "character": "ム",
+    "romaji": ["mu"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 142,
+    "character": "メ",
+    "romaji": ["me"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 143,
+    "character": "モ",
+    "romaji": ["mo"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 144,
+    "character": "ヤ",
+    "romaji": ["ya"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 145,
+    "character": "ユ",
+    "romaji": ["yu"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 146,
+    "character": "ヨ",
+    "romaji": ["yo"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 147,
+    "character": "ラ",
+    "romaji": ["ra"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 148,
+    "character": "リ",
+    "romaji": ["ri"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 149,
+    "character": "ル",
+    "romaji": ["ru"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 150,
+    "character": "レ",
+    "romaji": ["re"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 151,
+    "character": "ロ",
+    "romaji": ["ro"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 152,
+    "character": "ワ",
+    "romaji": ["wa"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 153,
+    "character": "ヲ",
+    "romaji": ["wo", "o"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 154,
+    "character": "ン",
+    "romaji": ["n"],
+    "syllabary": "katakana",
+    "group": "gojuon"
+  },
+  {
+    "id": 155,
+    "character": "ガ",
+    "romaji": ["ga"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 156,
+    "character": "ギ",
+    "romaji": ["gi"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 157,
+    "character": "グ",
+    "romaji": ["gu"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 158,
+    "character": "ゲ",
+    "romaji": ["ge"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 159,
+    "character": "ゴ",
+    "romaji": ["go"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 160,
+    "character": "ザ",
+    "romaji": ["za"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 161,
+    "character": "ジ",
+    "romaji": ["ji", "zi"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 162,
+    "character": "ズ",
+    "romaji": ["zu"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 163,
+    "character": "ゼ",
+    "romaji": ["ze"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 164,
+    "character": "ゾ",
+    "romaji": ["zo"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 165,
+    "character": "ダ",
+    "romaji": ["da"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 166,
+    "character": "ヂ",
+    "romaji": ["ji", "di"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 167,
+    "character": "ヅ",
+    "romaji": ["zu", "du", "dzu"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 168,
+    "character": "デ",
+    "romaji": ["de"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 169,
+    "character": "ド",
+    "romaji": ["do"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 170,
+    "character": "バ",
+    "romaji": ["ba"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 171,
+    "character": "ビ",
+    "romaji": ["bi"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 172,
+    "character": "ブ",
+    "romaji": ["bu"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 173,
+    "character": "ベ",
+    "romaji": ["be"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 174,
+    "character": "ボ",
+    "romaji": ["bo"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 175,
+    "character": "パ",
+    "romaji": ["pa"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 176,
+    "character": "ピ",
+    "romaji": ["pi"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 177,
+    "character": "プ",
+    "romaji": ["pu"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 178,
+    "character": "ペ",
+    "romaji": ["pe"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 179,
+    "character": "ポ",
+    "romaji": ["po"],
+    "syllabary": "katakana",
+    "group": "dakuon"
+  },
+  {
+    "id": 180,
+    "character": "キャ",
+    "romaji": ["kya"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 181,
+    "character": "キュ",
+    "romaji": ["kyu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 182,
+    "character": "キョ",
+    "romaji": ["kyo"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 183,
+    "character": "シャ",
+    "romaji": ["sha"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 184,
+    "character": "シュ",
+    "romaji": ["shu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 185,
+    "character": "ショ",
+    "romaji": ["sho"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 186,
+    "character": "チャ",
+    "romaji": ["cha"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 187,
+    "character": "チュ",
+    "romaji": ["chu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 188,
+    "character": "チョ",
+    "romaji": ["cho"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 189,
+    "character": "ニャ",
+    "romaji": ["nya"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 190,
+    "character": "ニュ",
+    "romaji": ["nyu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 191,
+    "character": "ニョ",
+    "romaji": ["nyo"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 192,
+    "character": "ヒャ",
+    "romaji": ["hya"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 193,
+    "character": "ヒュ",
+    "romaji": ["hyu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 194,
+    "character": "ヒョ",
+    "romaji": ["hyo"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 195,
+    "character": "ミャ",
+    "romaji": ["mya"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 196,
+    "character": "ミュ",
+    "romaji": ["myu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 197,
+    "character": "ミョ",
+    "romaji": ["myo"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 198,
+    "character": "リャ",
+    "romaji": ["rya"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 199,
+    "character": "リュ",
+    "romaji": ["ryu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 200,
+    "character": "リョ",
+    "romaji": ["ryo"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 201,
+    "character": "ギャ",
+    "romaji": ["gya"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 202,
+    "character": "ギュ",
+    "romaji": ["gyu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 203,
+    "character": "ギョ",
+    "romaji": ["gyo"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 204,
+    "character": "ジャ",
+    "romaji": ["ja"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 205,
+    "character": "ジュ",
+    "romaji": ["ju"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 206,
+    "character": "ジョ",
+    "romaji": ["jo"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 207,
+    "character": "ヂャ",
+    "romaji": ["ja", "dya"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 208,
+    "character": "ヂュ",
+    "romaji": ["ju", "dyu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 209,
+    "character": "ヂョ",
+    "romaji": ["jo", "dyo"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 210,
+    "character": "ビャ",
+    "romaji": ["bya"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 211,
+    "character": "ビュ",
+    "romaji": ["byu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 212,
+    "character": "ビョ",
+    "romaji": ["byu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 213,
+    "character": "ピャ",
+    "romaji": ["pya"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 214,
+    "character": "ピュ",
+    "romaji": ["pyu"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  },
+  {
+    "id": 215,
+    "character": "ピョ",
+    "romaji": ["pyo"],
+    "syllabary": "katakana",
+    "group": "yoon"
+  }
+]
