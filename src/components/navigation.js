@@ -24,6 +24,12 @@ class Navigation extends React.Component {
       case '/practice':
         navEl = <div> <Link to="/"> Home </Link> <span className="separator"> > </span> Practice </div>
         break;
+      case '/options':
+          navEl = <div> <Link to="/"> Home </Link> <span className="separator"> > </span> Options </div>
+          break;
+      case '/results':
+          navEl = <div> <Link to="/"> Home </Link> <span className="separator"> > </span> Results </div>
+          break;
       default:
         navEl = (
           <div>

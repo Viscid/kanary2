@@ -8,6 +8,8 @@ import Navigation from 'components/navigation';
 import SelectHiragana from 'components/select/hiragana';
 import SelectKatakana from 'components/select/katakana';
 import Practice from 'components/practice';
+import Options from 'components/options';
+import Results from 'components/results';
 
 function Kanary2(props) {
   return (
@@ -16,9 +18,11 @@ function Kanary2(props) {
         <Navigation />
         <div className="kanary__routerContent">
           <Route path="/" exact component={Index} />
-          <Route path="/hiragana" exact component={SelectHiragana} />
-          <Route path="/katakana" exact component={SelectKatakana} />
-          <Route path="/practice" exact component={Practice} />
+          <Route path="/hiragana" component={SelectHiragana} />
+          <Route path="/katakana" component={SelectKatakana} />
+          <Route path="/practice" component={Practice} />
+          <Route path="/options" component={Options} />
+          <Route path="/results" component={Results} />
         </div>
       </div>
     </Router>

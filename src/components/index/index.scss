@@ -1,23 +1,27 @@
 @import 'vars.scss'; 
 
-.menu {
-  background-color: $backgroundSecondary;
-  width: 300px;
-  border: 3px solid $backgroundTertiary;
-  text-align: center;
-  margin: 0 auto;
+.optionsButton {
+  display: block;
+  font-size: 18px;
+  background-color: #333;
+  padding: 10px;
+  border: 1px solid #444;
+  color: #999;
+  margin-bottom: 1em;
+  transition: color 0.25s ease;
 
-  .menuContent {
-    padding: 1em;
-  }
+}
 
+.optionsButton:hover {
+  color: white;
 }
 
 .header {
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 30px;
+  margin: 0 0;
+  padding-bottom: 7px;
   color: $textSecondary;
-  margin: 0;
   background-color: $backgroundTertiary;
 }
 
@@ -62,7 +66,7 @@
   background-color: $backgroundTertiary;
   color: #999;
   border-radius: 2px;
-  margin-top: 2em;
+  margin-top: 1em;
   padding: 0.25em;
   display: block;
   cursor: pointer;

@@ -1,0 +1,72 @@
+@import "../../vars.scss";
+
+.results {
+  h2 {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 28px;
+    background-color: $backgroundTertiary;
+    color: $textSecondary;
+    font-weight: lighter;
+  }
+
+  .results__timeContainer {
+    font-size: 15px;
+    padding: 20px;
+    .results__time {
+      font-size: 40px;
+      line-height: 40px;
+    }
+    .results__kps {
+      color: #777;
+    }
+
+    .ms {
+      font-size: 20px;
+      color: #AAA;
+    }
+  }
+
+  .results__againLink {
+    padding: 10px;
+    display: block;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: #262626;
+  }
+
+  .results__numbersContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .results__number {
+      padding: 0 15px;
+
+      .rightNumber {
+        color: rgb(63, 202, 63);
+        font-size: 50px;
+        line-height: 55px;
+      }
+
+      .wrongNumber {
+        color: rgb(197, 61, 61);
+        font-size: 50px;
+        line-height: 55px;
+      }
+
+      .results__numberText {
+        font-size: 20px;
+        color: #CCC;
+      }
+    }
+  }
+    .results__percentage {
+      font-size: 20px;
+      color: #777;
+      padding: 5px;
+    }
+
+
+}

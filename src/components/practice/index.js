@@ -1,14 +1,18 @@
 import React from 'react';
 
 import { connect } from 'react-redux';
+import { Redirect } from 'react-router-dom';
 
 import './index.scss';
 
 import Kana from './kana';
 import KanaBar from './kanaBar';
 import RomajiInput from './romajiInput';
+import Timer from './timer';
+import Percentage from './percentage';
+import kanaGenerator from './kanaGenerator'
 
-import { getOrderedKana } from 'store/selectors/index';
+import { addItemToHistory } from 'store/actions';
 
 class Practice extends React.Component {
   constructor(props) {
@@ -16,28 +20,44 @@ class Practice extends React.Component {
 
     this.state = {
       currentKana: 0,
+      startTime: 0,
+      timeElapsed: 0,
       inputValue: '',
+      kanaBarOffset: 0,
       inputDisabled: false,
-      correct: [],
+      right: [],
       wrong: [],
       widths: [],
       done: false
     }
-    
+
+    this.timer = undefined;
     this.kanaRefs = this.props.orderedKana.map(() => React.createRef());
-    this.kanaBar = React.createRef();
     this.inputRef = React.createRef();
     this.focusInput = this.focusInput.bind(this);
     this.onChange = this.onChange.bind(this);
   }
 
   disableInput(time) {
-    this.setState({
-      inputDisabled: true
-    });
-
+    this.setState({ inputDisabled: true });
     setTimeout(() => this.setState({ inputDisabled: false }), time);
   }
+
+  startTimer(interval) {
+    this.setState({ startTime: Date.now() });
+
+    this.timer = setInterval(
+      () => this.setState({ timeElapsed: Date.now() - this.state.startTime }),
+      interval);
+  }
+
+  stopPractice() {
+    this.stopTimer();
+    this.setState({ inputValue: '' });
+    setTimeout(() => this.setState({ done: true }), 1000);
+  }
+
+  stopTimer() { if (this.timer) clearInterval(this.timer); }
 
   checkAnswer(answer) {
     const currentKana = this.props.orderedKana[this.state.currentKana];
@@ -48,53 +68,61 @@ class Practice extends React.Component {
     );
   }
 
-  nextKana(correct) {
+  updateKanaBarOffset(nextKanaIndex) {
+    const widths = this.state.widths.slice(0, nextKanaIndex);
+    this.setState({
+      kanaBarOffset: widths.length ? widths.reduce((pre, cur) => pre + cur) : 0
+    });
+  }
+
+
+  nextKana(right) {
     const nextKanaIndex = this.state.currentKana + 1;
     const lastKanaIndex = this.props.orderedKana.length - 1;
+  
+    this.setState({
+      currentKana: nextKanaIndex,
+      inputValue: ''
+    });
 
-    if (nextKanaIndex <= lastKanaIndex) {
-      this.setState({
-        currentKana: nextKanaIndex,
-        inputValue: ''
-      })
-
-      if (correct) {
-        this.setState ({ correct: [...this.state.correct, this.state.currentKana] });
-      } else {
-        this.setState ({ wrong: [...this.state.wrong, this.state.currentKana] });
-        this.disableInput(1000);
-      }
-    } else {
-      this.setState({ done: true })
+    if (right) this.setState({ right: [...this.state.right, this.state.currentKana] });
+    else {
+      this.setState({ wrong: [...this.state.wrong, this.state.currentKana] });
+      this.disableInput(500);
     }
 
+    if (nextKanaIndex <= lastKanaIndex) {
+      this.updateKanaBarOffset(nextKanaIndex);
+
+    } else this.stopPractice();
   }
 
   onChange(e) {
-    if (!this.state.inputDisabled) {
-      const value = e.target.value;
-      const currentKana = this.props.orderedKana[this.state.currentKana];
+    if (this.state.inputDisabled) return;
+    if (!this.timer) this.startTimer(100);
 
-      if (currentKana.romaji.includes(value)) {
-        this.nextKana(true);
-      } else if (!this.checkAnswer(value)) { 
-        this.nextKana(false);
-      } else {
-        this.setState({ inputValue: e.target.value });
-      }
-    }
+    const value = e.target.value;
+    const currentKana = this.props.orderedKana[this.state.currentKana];
+
+    if (currentKana.romaji.includes(value)) this.nextKana(true);
+    else if (!this.checkAnswer(value)) this.nextKana(false);
+    else this.setState({ inputValue: e.target.value });
   }
 
   componentDidMount() {
     this.setState({
-      widths: this.kanaRefs.map((ref) => ref.current.r.current.scrollWidth)
+      widths: this.kanaRefs.map((ref) => ref.current ? ref.current.r.current.scrollWidth : null)
     });
+    this.updateKanaBarOffset();
   }
 
-  getOffset() {
-    if (this.kanaBar.current) { console.log(React.Children.count(this.kanaBar.current.props.children)); }
-    const widths = this.state.widths.slice(0, this.state.currentKana);
-    return widths.length ? widths.reduce((pre, cur) => pre + cur) : 0;
+  componentDidUpdate() {
+    if (this.state.done) this.props.addItemToHistory(
+      this.state.timeElapsed,
+      this.props.orderedKana,
+      this.state.right,
+      this.state.wrong,
+      Date.now());
   }
 
   focusInput() {
@@ -102,21 +130,19 @@ class Practice extends React.Component {
   }
 
   render() {
-    return (
+    return !this.state.done ?
       <div
         onMouseDown={this.focusInput}
         className="practice__container">
         <KanaBar
-          currentKana={this.state.currentKana}
           currentKanaWidth={this.state.widths[this.state.currentKana]}
-          kanaBarOffset={this.getOffset()}
-          ref={this.kanaBar}>
+          kanaBarOffset={this.state.kanaBarOffset}>
           {this.props.orderedKana.map((kana, index) => <Kana
             index={index}
-            key={kana.id}
+            key={index}
             kana={kana}
             ref={this.kanaRefs[index]}
-            correct={this.state.correct.includes(index)}
+            right={this.state.right.includes(index)}
             wrong={this.state.wrong.includes(index)}
             active={this.state.currentKana === index} />)}
         </KanaBar>
@@ -125,22 +151,30 @@ class Practice extends React.Component {
           value={this.state.inputValue}
           onChange={this.onChange}
           disabled={this.inputDisabled} />
-        { this.state.done ? <h1> Done </h1> : null}
-      </div>
-    )
+        <div
+          className="practice__infoContainer">
+          <Timer
+            time={this.state.timeElapsed} />
+          <Percentage
+            length={this.props.orderedKana.length}
+            index={this.state.currentKana} />
+        </div>
+      </div> : <Redirect to="/results" />
+
   }
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
-  }
+    addItemToHistory: (length, kana, right, wrong, date) => dispatch(addItemToHistory(length, kana, right, wrong, date))
+  };
 };
 
 const mapStateToProps = (state) => {
   const { practice } = state;
   return {
     practice,
-    orderedKana: getOrderedKana(state)
+    orderedKana: kanaGenerator(state)
   }
 }
 

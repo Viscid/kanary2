@@ -667,42 +667,42 @@
   {
     "id": 97,
     "character": "じゃ",
-    "romaji": ["ja"],
+    "romaji": ["ja", "jya"],
     "syllabary": "hiragana",
     "group": "yoon"
   },
   {
     "id": 98,
     "character": "じゅ",
-    "romaji": ["ju"],
+    "romaji": ["ju", "jyu"],
     "syllabary": "hiragana",
     "group": "yoon"
   },
   {
     "id": 99,
     "character": "じょ",
-    "romaji": ["jo"],
+    "romaji": ["jo", "jyo"],
     "syllabary": "hiragana",
     "group": "yoon"
   },
   {
     "id": 100,
     "character": "ぢゃ",
-    "romaji": ["ja", "dya"],
+    "romaji": ["ja", "dya", "jya"],
     "syllabary": "hiragana",
     "group": "yoon"
   },
   {
     "id": 101,
     "character": "ぢゅ",
-    "romaji": ["ju", "dyu"],
+    "romaji": ["ju", "dyu", "jyu"],
     "syllabary": "hiragana",
     "group": "yoon"
   },
   {
     "id": 102,
     "character": "ぢょ",
-    "romaji": ["jo", "dyo"],
+    "romaji": ["jo", "dyo", "jyo"],
     "syllabary": "hiragana",
     "group": "yoon"
   },
