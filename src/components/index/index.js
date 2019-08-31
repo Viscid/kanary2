@@ -43,6 +43,11 @@ class Index extends React.Component {
               to="/options"> Options 
             </Link>
 
+            <Link
+              className="optionsButton"
+              to="/history"> History 
+            </Link>
+
             <div className="menuText">
               <Link to={'/' + this.props.options.mode}></Link>
               <span style={{fontWeight: 'bold'}}> {this.selectedKanaCount()} </span> kana selected. <br />

@@ -31,6 +31,7 @@ class KanaBar extends React.PureComponent {
   render() {
     return (
       <div 
+        id="asdfasdf"
         className="practice__kanaBar"
         ref={this.kanaBarRef}>
         <div 

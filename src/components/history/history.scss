@@ -1,0 +1,35 @@
+@import '../../vars.scss';
+
+.history__header {
+  font-weight: lighter;
+  font-size: 30px;
+  margin: 0 0;
+  padding-bottom: 7px;
+  color: $textSecondary;
+  background-color: $backgroundTertiary;
+}
+
+.history__dataContainer {
+  text-align: left;
+  
+  
+}
+
+.history__dataItem {
+  padding: 10px;
+}
+
+.history__dataItem:not(:last-of-type) {
+
+  border-bottom: 1px solid #444;
+}
+
+.history__dataItemDate {
+  color: $textSecondary;
+}
+
+.history__dataItemsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

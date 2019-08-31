@@ -33,10 +33,14 @@
   transition: all 0.25s;
 }
 
+
+
 .practice__romajiInput {
   margin: 0 auto;
   margin-top: 50px;
 }
+
+
 
 .practice__romajiInput input {
   background-color: rgba(0, 0, 0, 0);
@@ -50,6 +54,8 @@
   padding: 10px;
   outline: none;
 }
+
+
 
 .practice__singleKanaAnswer {
   font-size: 20px;
@@ -74,6 +80,8 @@
   transition: all 0.5s ease-out;
   position: relative;
 }
+
+
 
 .practice__singleKana.active {
   color: #ddd;
@@ -118,6 +126,34 @@
   transition: width 0.25s ease-in;
   left: 0;
   top: 0;
+}
+
+@media(max-width: 400px) {
+  .practice__kanaBar {
+    height: 100px;
+  }
+
+  .practice__kanaContainer {
+    height: 100px;
+  }
+
+  .practice__romajiInput {
+    margin-top: 25px;
+  }
+
+  .practice__singleKana {
+    font-size: 50px;
+  }
+
+  .practice__singleKanaAnswer {
+    font-size: 15px;
+    margin-top: 5px;
+    height: 15px;
+  }
+
+  .practice__romajiInput input {
+    font-size: 45px;
+  }
 }
 
 @keyframes pulse {

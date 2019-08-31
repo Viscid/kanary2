@@ -79,7 +79,7 @@ class Practice extends React.Component {
   nextKana(right) {
     const nextKanaIndex = this.state.currentKana + 1;
     const lastKanaIndex = this.props.orderedKana.length - 1;
-  
+
     this.setState({
       currentKana: nextKanaIndex,
       inputValue: ''

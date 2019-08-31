@@ -10,6 +10,7 @@ import SelectKatakana from 'components/select/katakana';
 import Practice from 'components/practice';
 import Options from 'components/options';
 import Results from 'components/results';
+import History from 'components/history';
 
 function Kanary2(props) {
   return (
@@ -23,6 +24,7 @@ function Kanary2(props) {
           <Route path="/practice" component={Practice} />
           <Route path="/options" component={Options} />
           <Route path="/results" component={Results} />
+          <Route path="/history" component={History} />
         </div>
       </div>
     </Router>

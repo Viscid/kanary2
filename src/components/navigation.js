@@ -11,31 +11,32 @@ class Navigation extends React.Component {
 
     let navEl;
 
+    const navGenerator = (pageName) =>  <div> <Link to="/"> Home </Link> <span className="separator"> > </span> {pageName} </div>
+
     switch(pathname) {
       case '/':
-        navEl = <div> <Link to="/"> Home </Link> </div>
+        navEl = <div> <Link to="/"> Home </Link> </div>;
         break;
       case '/hiragana':
-        navEl = <div> <Link to="/"> Home </Link> <span className="separator"> > </span> Select Hiragana </div>
+        navEl = navGenerator('Select Hiragana');
         break;
       case '/katakana':
-        navEl = <div> <Link to="/"> Home </Link> <span className="separator"> > </span> Select Katakana </div>
+        navEl = navGenerator('Select Katakana');
         break;
       case '/practice':
-        navEl = <div> <Link to="/"> Home </Link> <span className="separator"> > </span> Practice </div>
+        navEl = navGenerator('Practice');
         break;
       case '/options':
-          navEl = <div> <Link to="/"> Home </Link> <span className="separator"> > </span> Options </div>
+          navEl = navGenerator('Options');
           break;
       case '/results':
-          navEl = <div> <Link to="/"> Home </Link> <span className="separator"> > </span> Results </div>
+          navEl = navGenerator('Results');
           break;
+      case '/history':
+        navEl = navGenerator('History');
+        break;
       default:
-        navEl = (
-          <div>
-            <Link to="/"> Home </Link>
-          </div>
-        );
+        navEl = <div> <Link to="/"> Home </Link> </div>;
         break;
     }
 
