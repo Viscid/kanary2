@@ -11,8 +11,6 @@
 
 .history__dataContainer {
   text-align: left;
-  
-  
 }
 
 .history__dataItem {
@@ -26,10 +24,47 @@
 
 .history__dataItemDate {
   color: $textSecondary;
+  font-size: 17px;
+  margin-bottom: 5px;
 }
 
 .history__dataItemsContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.history__dataItemsContainer label {
+  color: #999;
+  font-weight: normal;
+}
+
+.history__dataItemRight { 
+  color: rgb(83, 172, 83);
+  font-weight: bold;
+}
+
+.history__dataItemWrong {
+  color: rgb(146, 82, 82);
+}
+
+.history__clearButton {
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  border: 1px solid #444;
+  color: #999;
+  margin-bottom: 1em;
+  transition: color 0.25s ease;
+  cursor: pointer;
+}
+
+.history__clearButton:hover {
+  color: white;
+}
+
+.history__emptyMessage {
+  color: #888;
 }

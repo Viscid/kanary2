@@ -26,6 +26,7 @@ function Kanary2(props) {
           <Route path="/results" component={Results} />
           <Route path="/history" component={History} />
         </div>
+        <h3 style={{color: '#333', fontSize: '10px', padding: '3px 3px 3px 10px'}}> Mark Gillis - viscid@gmail.com </h3>
       </div>
     </Router>
   );

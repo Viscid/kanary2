@@ -1,4 +1,5 @@
 import { ADD_ITEM_TO_HISTORY } from 'store/actions';
+import { CLEAR_HISTORY } from 'store/actions';
 
 const initialState = [];
 
@@ -15,7 +16,9 @@ const initialState = [];
 export default function(state = initialState, action) {
   switch (action.type) {
     case ADD_ITEM_TO_HISTORY:
-      return [...state, action.item]
+      return [...state, action.item];
+    case CLEAR_HISTORY:
+      return [];
     default: 
       return state;
   }

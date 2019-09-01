@@ -7,6 +7,7 @@ export const SET_MODE = 'SET_MODE';
 export const INITIALIZE_PRACTICE = 'INITIALIZE_PRACTICE';
 export const SET_DRILL_LENGTH = 'SET_DRILL_LENGTH';
 export const ADD_ITEM_TO_HISTORY = 'ADD_ITEM_TO_HISTORY';
+export const CLEAR_HISTORY = 'CLEAR_HISTORY';
 
 export function toggleKana(kana) {
   return { 
@@ -58,5 +59,11 @@ export function addItemToHistory(time, kana, right, wrong, date) {
       wrong,
       date
     }
+  }
+}
+
+export function clearHistory() {
+  return {
+    type: CLEAR_HISTORY
   }
 }
