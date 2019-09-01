@@ -1,16 +1,21 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { setDrillLength } from 'store/actions';
+import { setDrillLength, setStrict } from 'store/actions';
 import './options.scss';
 
 class Options extends React.Component {
   constructor(props) {
     super(props);
     this.changeDrillLength = this.changeDrillLength.bind(this);
+    this.changeStrictness = this.changeStrictness.bind(this);
   }
 
   changeDrillLength(e) {
     this.props.setDrillLength(e.target.value)
+  }
+
+  changeStrictness() {
+    this.props.setStrict(!this.props.options.strict);
   }
 
   render() {
@@ -34,6 +39,14 @@ class Options extends React.Component {
               onChange={this.changeDrillLength} />
           </div>
 
+          <div className="options__option">
+            <label> Strict </label>
+            <input 
+              type="checkbox"
+              checked={this.props.options.strict}
+              onChange={this.changeStrictness} />
+          </div>          
+
           </div>
           
         </div>
@@ -53,6 +66,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     setDrillLength: (length) => dispatch(setDrillLength(length)),
+    setStrict: (strict) => dispatch(setStrict(strict))
   }
 }
 

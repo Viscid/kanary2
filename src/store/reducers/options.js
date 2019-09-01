@@ -1,8 +1,9 @@
-import { SET_MODE, SET_DRILL_LENGTH } from '../actions';
+import { SET_MODE, SET_DRILL_LENGTH, SET_STRICT } from '../actions';
 
 const initialState = {
   mode: 'hiragana',
   drillLength: 50,
+  strict: true
 };
 
 export default function(state = initialState, action) {
@@ -11,6 +12,11 @@ export default function(state = initialState, action) {
       return {
         ...state,
         mode: action.mode
+      }
+    case SET_STRICT:
+      return {
+        ...state,
+        strict: action.strict
       }
     case SET_DRILL_LENGTH:
       return {

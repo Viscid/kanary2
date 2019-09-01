@@ -61,11 +61,17 @@ class Practice extends React.Component {
 
   checkAnswer(answer) {
     const currentKana = this.props.orderedKana[this.state.currentKana];
-    const charIndex = answer.length - 1;
 
-    return currentKana.romaji.some(
-      (romaji) => romaji.charAt(charIndex) === answer.charAt(charIndex)
-    );
+    if (this.props.options.strict) {
+      const charIndex = answer.length - 1;
+      return currentKana.romaji.some(
+        (romaji) => romaji.charAt(charIndex) === answer.charAt(charIndex)
+      );
+    } else {
+      let maxAnswerLength = 1;
+      currentKana.romaji.forEach((romaji) => maxAnswerLength = maxAnswerLength < romaji.length ? romaji.length : maxAnswerLength);
+      return answer.length <= maxAnswerLength;
+    }
   }
 
   updateKanaBarOffset(nextKanaIndex) {
@@ -171,9 +177,10 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 const mapStateToProps = (state) => {
-  const { practice } = state;
+  const { practice, options } = state;
   return {
     practice,
+    options,
     orderedKana: kanaGenerator(state)
   }
 }

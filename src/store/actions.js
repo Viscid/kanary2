@@ -8,6 +8,8 @@ export const INITIALIZE_PRACTICE = 'INITIALIZE_PRACTICE';
 export const SET_DRILL_LENGTH = 'SET_DRILL_LENGTH';
 export const ADD_ITEM_TO_HISTORY = 'ADD_ITEM_TO_HISTORY';
 export const CLEAR_HISTORY = 'CLEAR_HISTORY';
+export const SET_STRICT = 'SET_STRICT';
+
 
 export function toggleKana(kana) {
   return { 
@@ -39,6 +41,13 @@ export function setMode(mode) {
   return {
     type: SET_MODE,
     mode
+  }
+}
+
+export function setStrict(strict) {
+  return {
+    type: SET_STRICT,
+    strict
   }
 }
 
