@@ -26,7 +26,7 @@ class History extends React.Component {
     </button>);
   
     const emptyMessage = (<div className="history__emptyMessage">
-      The history is empty. Horribly, horribly empty. 
+      The history is empty. <br /> Horribly, horribly empty. 
     </div>)
 
     return (
