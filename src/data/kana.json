@@ -79,7 +79,7 @@
   {
     "id": 12,
     "character": "し",
-    "romaji": ["shi"],
+    "romaji": ["shi", "si"],
     "syllabary": "hiragana",
     "group": "gojuon"
   },
@@ -121,7 +121,7 @@
   {
     "id": 18,
     "character": "つ",
-    "romaji": ["tsu"],
+    "romaji": ["tsu", "tu"],
     "syllabary": "hiragana",
     "group": "gojuon"
   },
@@ -520,21 +520,21 @@
   {
     "id": 76,
     "character": "しゃ",
-    "romaji": ["sha"],
+    "romaji": ["sha", "sya"],
     "syllabary": "hiragana",
     "group": "yoon"
   },
   {
     "id": 77,
     "character": "しゅ",
-    "romaji": ["shu"],
+    "romaji": ["shu", "syu"],
     "syllabary": "hiragana",
     "group": "yoon"
   },
   {
     "id": 78,
     "character": "しょ",
-    "romaji": ["sho"],
+    "romaji": ["sho", "syo"],
     "syllabary": "hiragana",
     "group": "yoon"
   },
@@ -828,7 +828,7 @@
   {
     "id": 120,
     "character": "シ",
-    "romaji": ["shi"],
+    "romaji": ["shi", "si"],
     "syllabary": "katakana",
     "group": "gojuon"
   },
@@ -870,7 +870,7 @@
   {
     "id": 126,
     "character": "ツ",
-    "romaji": ["tsu"],
+    "romaji": ["tsu", "tu"],
     "syllabary": "katakana",
     "group": "gojuon"
   },
@@ -1269,21 +1269,21 @@
   {
     "id": 183,
     "character": "シャ",
-    "romaji": ["sha"],
+    "romaji": ["sha", "sya"],
     "syllabary": "katakana",
     "group": "yoon"
   },
   {
     "id": 184,
     "character": "シュ",
-    "romaji": ["shu"],
+    "romaji": ["shu", "syu"],
     "syllabary": "katakana",
     "group": "yoon"
   },
   {
     "id": 185,
     "character": "ショ",
-    "romaji": ["sho"],
+    "romaji": ["sho", "syo"],
     "syllabary": "katakana",
     "group": "yoon"
   },
